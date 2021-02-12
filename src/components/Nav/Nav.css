@@ -1,0 +1,14 @@
+.burger-boi {
+font-size: 2vw;
+color: #545454;
+float: right;
+right: 0;
+padding-right: 2vw;
+margin-top: 1vw;
+position: fixed;
+
+}
+.burger-boi:hover {
+font-size: 2.1vw;
+cursor: pointer;
+}

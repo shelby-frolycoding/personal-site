@@ -1,6 +1,31 @@
-.landing-title {
-  /* width: 50vw; */
-margin-left: 20vw;
-margin-top: 10vw;
+img.landing-title {
+
+margin-left: 13.5vw;
+margin-top: 3vw;
+
+
+}
+
+
+.land-logos {
+margin-left: 16vw;
+
+}
+
+.l-logo {
+
+margin-left: 4vw;
+margin-right: 4vw;
+}
+.l-logo:hover {
+transform: scale(1.02);
+opacity: .7;
+}
+.fanny {
+margin: 0 auto;
+text-align: center;
+font-size: 1.5vw;
+font-family: 'Be Vietnam', sans-serif;
+margin-bottom: 5vw;
 
 }

@@ -1,0 +1,42 @@
+.menu {
+/* float: right; */
+/* margin-right: 5vw; */
+margin-top: 2vw;
+color: #545454;
+font-size: 1.5vw;
+position: fixed;
+right: 95px;
+
+}
+
+.menu-link {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: #545454;
+  text-decoration: none;
+  font-family: 'Be Vietnam', sans-serif;
+  
+ 
+
+}
+.menu-link:hover{
+color: rgb(238, 238, 238);
+font-size: 1.4vw;
+
+}
+
+.menu-enter {
+  transform: translateX(50%);
+ 
+}
+.menu-enter-active {
+  transform: translateX(0);
+  transition: transform 0.4s linear;
+}
+.menu-exit {
+  transform: translateX(0);
+}
+.menu-exit-active {
+  transform: translateX(50%);
+  transition: transform 0.4s linear;
+}

@@ -42,7 +42,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
+In my early, youthful days in Ohio, I started as a simple barista-- slinging espresso, working my 
+        way up to training director, and even winning a championship.  The skills and people I met in my humble start have shaped 
+        me into the understanding and hardworking person I am today and I bring that background into whatever work I do now. 
+        Since my more bohemian beginings, I've held many different managent positions in retail, cusomter-relations, 
+        and digital settings. My multi-facet past has fortified my understanding of diversity, adversity, and adapatability.
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting

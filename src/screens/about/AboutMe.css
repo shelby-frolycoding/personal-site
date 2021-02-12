@@ -1,0 +1,60 @@
+.about-cont {
+background-color: #FDF6EF;
+padding: 2vw;
+color: #545454;
+text-decoration: none;
+font-family: 'Be Vietnam', sans-serif;
+font-size: 1.1vw;
+width: 55vw;
+height: auto;
+margin-left: 30vw;
+margin-top: -31vw;
+margin-bottom: 5vw;
+}
+/* .me-pic {
+
+
+
+} */
+.bold {
+font-weight: bolder;
+}
+.a-t {
+margin-bottom: 35vw;
+margin-left: -12vw;
+padding-top: 1vw;
+}
+
+.skills {
+font-size: 2vw;
+color: #545454;
+display: flex;
+justify-content: space-between;
+width: 55vw;
+margin-left: 32.5vw;
+margin-top: -4vw;
+margin-bottom: 5vw;
+}
+
+.social {
+font-size: 5vw;
+float: right;
+width: 3vw;
+height: auto;
+
+margin-top: -39vw;
+margin-right: 5vw;
+
+}
+.soc {
+margin-top: 1vw;
+margin-bottom: 1vw;
+background-color: #545454d0;
+padding: 1vw;
+border-radius: 45%;
+color: #F2CAC3;
+}
+.soc:hover {
+color: #545454;
+cursor: pointer;
+}

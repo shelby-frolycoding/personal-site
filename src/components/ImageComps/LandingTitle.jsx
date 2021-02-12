@@ -1,4 +1,4 @@
-import logo from "../../images/shelby title.png"
+import logo from "../../images/title2.png"
 
 
 export default function Title() {

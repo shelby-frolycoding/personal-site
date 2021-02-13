@@ -47,7 +47,7 @@ export default function AboutMe(props) {
       <FontAwesomeIcon className="soc" icon={faGithubAlt} />
       <FontAwesomeIcon className="soc" icon={faInstagram} />
       </div>
-      
+      <div class="bb"></div>
     </div>
   );
 }

@@ -30,6 +30,12 @@ export default function Landing(props) {
       <p className="fanny">
         let's make something fantastic
      </p>
+     <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content">
+  <h1></h1>
+</div>
     </div>
 
   );

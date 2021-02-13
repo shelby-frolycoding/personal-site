@@ -1,9 +1,9 @@
-import logo from "../../images/melogo2.png"
+import logo from "../../images/themelogo.png"
 
 
 export default function MeLogo() {
   return (
-    <img className="l-logo" src={logo} alt="me logo" />
+    <img className="m-logo" src={logo} alt="me logo" />
    
   );
 }

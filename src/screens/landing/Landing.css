@@ -15,8 +15,11 @@ transition: .5s;
 .b-logo {
 padding: .5vw;
 }
+.m-logo {
+padding: 1.4vw;
+}
 
-.l-logo, .b-logo {
+.l-logo, .b-logo, .m-logo {
 
 margin-left: 4vw;
 margin-right: 4vw;
@@ -33,6 +36,10 @@ transform: translateX(.5vw) rotate(360deg);
   transform: scale(1.02);
   transform: translateX(.5vw) rotate(360deg);
   }
+  .m-logo:hover {
+    transform: scale(1.02);
+    transform: translateX(.5vw) rotate(360deg);
+    }
 .fanny {
 margin: 0 auto;
 /* margin-left: 18vw; */
@@ -40,4 +47,37 @@ text-align: center;
 font-size: 1.5vw;
 font-family: 'Be Vietnam', sans-serif;
 margin-bottom: 5vw;
+}
+
+.bg {
+  animation: slide 8s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg,  #e4b1b2 50%,  #F2CAC3 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:8s;
+}
+
+.bg3 {
+  animation-duration:8s;
+}
+
+
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
 }

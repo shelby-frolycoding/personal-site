@@ -7,19 +7,24 @@ font-family: 'Be Vietnam', sans-serif;
 font-size: 1.1vw;
 width: 55vw;
 height: auto;
-margin-left: 30vw;
-margin-top: -35vw;
+margin-left: 31vw;
+margin-top: -38vw;
 margin-bottom: 5vw;
 box-shadow: 5px 5px .5px .5px #d09db2b3;
+}
+.me-pic {
+width: 31vw;
+height: auto;
 }
 
 .bold {
 font-weight: bolder;
 }
 .a-t {
-margin-bottom: 33vw;
-margin-left: -12vw;
-padding-top: 1vw;
+  width: 34.5vw;
+  /* height: auto; */
+margin-bottom: 34vw;
+margin-left: -26vw;
 animation-duration: 3s;
 animation-name: slidein;
 animation-iteration-count: inherit;
@@ -92,7 +97,7 @@ cursor: pointer;
 }
 .file {
   /* margin-left: 41vw; */
-  margin-left: 5vw;
+  margin-left: 7vw;
   /* margin-top: 3vw; */
   /* margin-bottom: 2.5vw; */
   cursor: pointer;
@@ -153,3 +158,38 @@ button.file:active::before {
       box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 
 }
+
+/* 
+.bb {
+  background-image: linear-gradient(-60deg,  #e4b1b2 50%,  #F2CAC3 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+} */
+.bb {
+  /* bottom:0;
+  opacity:.5;
+  position:fixed;
+  top:0;
+  left: 1; 
+  z-index:-1; */
+  margin-left: 15vw;
+  background-image: linear-gradient(-60deg,  #e4b1b2 50%,  #F2CAC3 50%);
+  -webkit-animation: slidein 4s forwards;
+  
+  animation: slidein 4s forwards;
+  
+}
+
+@-webkit-keyframes slidein {
+  100% { left: 0; }
+}
+
+@keyframes slidein {
+  0% { right: 0; }
+}
+

@@ -1,4 +1,4 @@
-import logo from "../../images/me.png"
+import logo from "../../images/newme.png"
 
 
 export default function MePic() {

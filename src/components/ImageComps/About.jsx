@@ -1,4 +1,4 @@
-import logo from "../../images/about me.png"
+import logo from "../../images/aboutpage.png"
 
 
 export default function AboutTitle() {

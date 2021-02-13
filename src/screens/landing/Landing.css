@@ -9,23 +9,35 @@ margin-top: 3vw;
 
 .land-logos {
 margin-left: 16vw;
+transition: .5s;
 
 }
+.b-logo {
+padding: .5vw;
+}
 
-.l-logo {
+.l-logo, .b-logo {
 
 margin-left: 4vw;
 margin-right: 4vw;
+transition: .5s;
+border: 2px dashed white;
+border-radius: 50%;
+margin-bottom: 2vw;
 }
 .l-logo:hover {
 transform: scale(1.02);
-opacity: .7;
+transform: translateX(.5vw) rotate(360deg);
 }
+.b-logo:hover {
+  transform: scale(1.02);
+  transform: translateX(.5vw) rotate(360deg);
+  }
 .fanny {
 margin: 0 auto;
+/* margin-left: 18vw; */
 text-align: center;
 font-size: 1.5vw;
 font-family: 'Be Vietnam', sans-serif;
 margin-bottom: 5vw;
-
 }

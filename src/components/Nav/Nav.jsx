@@ -16,7 +16,7 @@ export default function Nav(props) {
  
   return (
     <div className="all-nav">
-      <div className="burger-boi">
+      <div className="burger-boi"> 
         <FontAwesomeIcon
           icon={faBars}
           name="menuToggle"

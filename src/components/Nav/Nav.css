@@ -1,6 +1,7 @@
 .burger-boi {
 font-size: 2vw;
-color: #545454;
+/* color: #545454; */
+color: #d09db2;
 float: right;
 right: 0;
 padding-right: 2vw;
@@ -12,3 +13,4 @@ position: fixed;
 font-size: 2.1vw;
 cursor: pointer;
 }
+

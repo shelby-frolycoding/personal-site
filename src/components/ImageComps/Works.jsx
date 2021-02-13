@@ -1,4 +1,4 @@
-import logo from "../../images/works.png"
+import logo from "../../images/works2.png"
 
 
 export default function WorksTitle() {

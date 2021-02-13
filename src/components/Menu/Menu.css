@@ -1,6 +1,6 @@
 .menu {
-/* float: right; */
-/* margin-right: 5vw; */
+float: right; 
+ margin-right: 5vw;
 margin-top: 2vw;
 color: #545454;
 font-size: 1.5vw;
@@ -20,9 +20,10 @@ right: 95px;
 
 }
 .menu-link:hover{
-color: rgb(238, 238, 238);
+color: #d09db2;
 font-size: 1.4vw;
-
+border: 2px dashed white;
+background-clip: content-box;
 }
 
 .menu-enter {

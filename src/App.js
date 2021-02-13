@@ -4,10 +4,15 @@ import Landing from "./screens/landing/Landing";
 import AboutMe from "./screens/about/AboutMe"
 import Projects from "./screens/project list/Projects"
 
+
+
 function App() {
+  
   return (
-      <div className="App">
-         <Switch>
+    
+    <div className="App">
+     
+         <Switch >
          <Route exact path="/">
          <Landing  />
         </Route>
@@ -19,7 +24,7 @@ function App() {
         </Route>
          
         </Switch> 
-       
+      
       </div>
 
   );

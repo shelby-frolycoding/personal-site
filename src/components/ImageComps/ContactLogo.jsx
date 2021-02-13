@@ -1,9 +1,9 @@
-import logo from "../../images/contactlogo.png"
+import logo from "../../images/bob.png"
 
 
 export default function ContactLogo() {
   return (
-    <img className="l-logo" src={logo} alt="contact logo" />
+    <img className="b-logo" src={logo} alt="contact logo" />
    
   );
 }

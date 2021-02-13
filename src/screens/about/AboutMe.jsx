@@ -5,7 +5,7 @@ import Layout from "../../components/Layout/Layout"
 import AboutTitle from "../../components/ImageComps/About"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faGithub, faGithubAlt, faHtml5, faInstagram, faJs, faLinkedinIn, faNode, faNpm, faReact } from "@fortawesome/free-brands-svg-icons";
-import { faGem } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faFileDownload, faGem } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function AboutMe(props) {
@@ -13,21 +13,24 @@ export default function AboutMe(props) {
     
     <div className="About">
       <Layout/>
-      <MePic className="me-pic" />
+      <MePic className="me-pic" /> 
       <AboutTitle className="a-t" />
+      {/* <p className="file">download my resume */}
+      <button class="file">download my resume</button>
+        {/* <FontAwesomeIcon className="file2" icon={faDownload} /></p> */}
       
       <div className = "about-cont">
         <p className="about-words"> <p className="bold"> Long ago, in a cornfield far away, a girl dreamed of using her wits and imagination to create and delight.</p>
         Whether it be a pen, a keyboard, or paint,
-        I thrive and revel in creative and invetive pursuits.
-        After years in retail, cusomter service, and even winning a barista championship, I yearned for more-- to make spectacular things, help businesses, and do it all with a bit of personality.
+        I thrive and revel in creative and inventive pursuits.
+        After years in retail, customer service, and even winning a barista championship, I yearned for more-- to make spectacular things, help businesses, and do it all with a bit of personality.
         My love for creation, technology, and progress led me to pursue a path into software engineering. I never want to stop learning and mastering these skills. 
         This is no longer just a career transition, but it has become an absolute passion for me. 
         <br/>
-        <p>I'm a fullstack engineer who specializes in front-end and I'm obsessed with all things styling and design. I also have helped businessed with
+        <p>I'm a fullstack engineer who specializes in front-end and I'm obsessed with all things styling and design. I also have helped businesses with
           branding and graphic design work and look forward to more. When it comes to my craft, I gleefully wield my creativity--which is my most loved skill--and 
-          approach everything like it's my next masterpeice. Yes, even styling buttons comes with its own beauty for me. 
-          Whether I need to solve a problem or design a logo, my imagination helps me approach things from an artistic or inventive mindset.
+          approach everything like it's my next masterpiece. Yes, even styling buttons comes with its own beauty for me. 
+          Whether I need to solve a problem or design a logo, my imagination helps me approach things from an artistic and inventive mindset.
           I want to create wonderful things for users and clients.</p>
         {/* <br/> */}
         <p className="bold">My dream is to help people and companies with
@@ -44,6 +47,7 @@ export default function AboutMe(props) {
       <FontAwesomeIcon className="soc" icon={faGithubAlt} />
       <FontAwesomeIcon className="soc" icon={faInstagram} />
       </div>
+      
     </div>
   );
 }

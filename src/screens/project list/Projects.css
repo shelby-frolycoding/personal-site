@@ -21,8 +21,16 @@
   }
 
   .p {
-    margin-bottom: 8vw;
-  }
+    margin-bottom: 5vw;
+    margin-top: 2vw;
+    -webkit-transition: -webkit-transform .4s ease-in-out;
+    transition: transform .4s ease-in-out;
+}
+.p:hover {
+-webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    /* transform: scale(1.2); */
+}
   .p-words {
   width: 50vw;
   height: 22vw;
@@ -32,7 +40,7 @@
   font-family: 'Be Vietnam', sans-serif;
   font-size: 1.1vw;
   margin-bottom: 5vw;
-  margin-top: -28vw;
+  margin-top: -32vw;
   margin-left: 35vw;
   display: flex;
   box-shadow: 5px 5px .5px .5px #d09db2b3;

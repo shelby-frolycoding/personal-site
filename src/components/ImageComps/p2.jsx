@@ -3,7 +3,7 @@ import logo from "../../images/p2.png"
 
 export default function P2() {
   return (
-    <img className="p2" src={logo} alt="contact logo" />
+    <img className="p" src={logo} alt="contact logo" />
    
   );
 }

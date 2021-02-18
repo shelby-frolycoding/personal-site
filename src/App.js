@@ -3,6 +3,7 @@ import { Route, Switch} from "react-router-dom";
 import Landing from "./screens/landing/Landing";
 import AboutMe from "./screens/about/AboutMe"
 import Projects from "./screens/project list/Projects"
+import Contact from "./screens/contact/Contact"
 
 
 
@@ -20,7 +21,11 @@ function App() {
         <AboutMe />
         </Route>
         <Route exact path="/projects">
-        <Projects />
+          <Projects />
+          </Route>
+          <Route exact path="/contact">
+         <Contact />
+       
         </Route>
          
         </Switch> 

@@ -138,3 +138,36 @@ button.big:active::before {
 .form-container {
 margin-top: 1vw;
 }
+.meetmee {
+font-size: 12vw;
+padding: 1.7vw;
+height: 15vw;
+/* padding-top: 1.9vw; */
+border-radius: 50%;
+color:  #545454d0; 
+border: 2px dashed white;
+background-clip: content-box;
+transition: .5s;
+
+
+
+
+}
+.meetmee:hover {
+color: #fff3f3;
+cursor: pointer;
+transform: translateX(.5vw) rotate(360deg);
+}
+
+
+.meeting {
+  margin-top: -30vw;
+  margin-left: 71vw;
+  text-align: center;
+  font-family: 'Be Vietnam', sans-serif;
+ font-weight: bold;
+ text-transform: lowercase;
+}
+.pm {
+  text-transform: lowercase;
+}

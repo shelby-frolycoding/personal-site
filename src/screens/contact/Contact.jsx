@@ -6,6 +6,8 @@ import React, {useState} from "react";
 import "./Contact.css";
 import Talk from "../../components/ImageComps/Talk"
 import Plane from "../../components/ImageComps/Plane"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBullhorn, faCoffee, faComment, faCommentAlt, faComments } from '@fortawesome/free-solid-svg-icons';
 
 // export default function Contact() {
 
@@ -104,6 +106,7 @@ const Contact = () => {
         <Talk />
         <br/>
         <Plane />
+        
         <div className="contact-form" id="contact">
           please@me
        <br/>
@@ -144,9 +147,16 @@ const Contact = () => {
            
            <button className="big" type="submit" value="Send">SEND</button>
             </form>
+           
             </div>
+            
         </div>
+        <div className = "meeting"> 
+        <a href="https://calendly.com/shelbysexton/" target="_blank" className="lol"><FontAwesomeIcon className="meetmee" icon={faCoffee} /> <br />
+          <p className="pm"> Schedule a Meeting with Me </p></a>
+         </div> 
         <div class="bb"></div>
+        
       </div>
     </>
   );

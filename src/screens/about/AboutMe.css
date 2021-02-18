@@ -20,11 +20,11 @@ height: auto;
 .bold {
 font-weight: bolder;
 }
-.a-t {
+.a-tt {
   width: 34.5vw;
-  /* height: auto; */
+
 margin-bottom: 34vw;
-margin-left: -26vw;
+margin-left: -22.5vw;
 animation-duration: 3s;
 animation-name: slidein;
 animation-iteration-count: inherit;
@@ -65,7 +65,6 @@ margin-right: 8vw;
 .soc {
 margin-top: 1vw;
 margin-bottom: 1vw;
-/* background-color: #545454d0; */
 padding: 1vw;
 width: 10vw;
 border-radius: 45%;
@@ -73,7 +72,7 @@ color:  #545454d0;
 border: 2px dashed white;
 background-clip: content-box;
 transition: .5s;
-/* color: #D7D0BE; */
+
 }
 .soc:hover {
 color: #fff3f3;
@@ -81,13 +80,6 @@ cursor: pointer;
 transform: translateX(.5vw) rotate(360deg);
 }
 
-/* .file {
-font-size: 1.4vw;
-color: #545454;
-font-family: 'Be Vietnam', sans-serif;
-margin-left: 6vw;
-margin-top: 1vw;
-} */
 .file2 {
 font-size: 2.5vw;
 }
@@ -95,10 +87,10 @@ font-size: 2.5vw;
 color: rgb(249, 237, 237);
 cursor: pointer;
 }
-.file {
-  /* margin-left: 41vw; */
-  margin-left: 7vw;
-  /* margin-top: 3vw; */
+.filezz {
+  margin-left: -24vw;
+ 
+  margin-top: 6vw;
   /* margin-bottom: 2.5vw; */
   cursor: pointer;
   outline: none;
@@ -112,17 +104,28 @@ cursor: pointer;
   text-transform: uppercase;
   font-family: inherit;
   text-align: center;
+  
+}
+.lol {
+  text-decoration: none;
+  font-size: 1vw;
+  
+  color: #545454cf;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: inherit;
+  text-align: center; 
 }
 
-button.file {
+.filezz {
    padding: 1.4em 2em;
    border: 2px solid var(--colorShadeA);
   border-radius: 1em;
   background: var(--colorShadeE);
-transform-style: preserve-3d;
+  transform-style: preserve-3d;
    transition: all 175ms cubic-bezier(0, 0, 1, 1);
 }
-button.file::before {
+.filezz::before {
   position: absolute;
   content: '';
   width: 100%;
@@ -139,20 +142,20 @@ button.file::before {
 }
 
 
-button.file:hover {
+.filezz:hover {
   background: var(--colorShadeD);
   transform: translate(0, 0.375em);
 }
 
-button.file:hover::before {
+.filezz:hover::before {
   transform: translate3d(0, 0.75em, -1em);
 }
 
-button.file:active {
+.filezz:active {
             transform: translate(0em, 0.75em);
 }
 
-button.file:active::before {
+.filezz:active::before {
   transform: translate3d(0, 0, -1em);
   
       box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);

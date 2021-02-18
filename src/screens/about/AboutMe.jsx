@@ -5,7 +5,8 @@ import Layout from "../../components/Layout/Layout"
 import AboutTitle from "../../components/ImageComps/About"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faGithub, faGithubAlt, faHtml5, faInstagram, faJs, faLinkedinIn, faNode, faNpm, faReact } from "@fortawesome/free-brands-svg-icons";
-import { faDownload, faFileDownload, faGem } from "@fortawesome/free-solid-svg-icons";
+import { faGem } from "@fortawesome/free-solid-svg-icons";
+import pdf from "../../images/pdf.pdf"
 
 
 export default function AboutMe(props) {
@@ -13,11 +14,15 @@ export default function AboutMe(props) {
     
     <div className="About">
       <Layout/>
-      <MePic className="me-pic" /> 
-      <AboutTitle className="a-t" />
-      {/* <p className="file">download my resume */}
-      <button class="file">download my resume</button>
-        {/* <FontAwesomeIcon className="file2" icon={faDownload} /></p> */}
+      <MePic className="me-pic" />
+      <button class="filezz">
+        <a href={pdf} target="_blank" className="lol">download my resume</a>
+      </button>
+
+      <AboutTitle className="a-tt" />
+      
+     
+        
       
       <div className = "about-cont">
         <p className="about-words"> <p className="bold"> Long ago, in a cornfield far away, a girl dreamed of using her wits and imagination to create and delight.</p>
@@ -43,10 +48,11 @@ export default function AboutMe(props) {
 
       </div>
       <div className="social">
-      <FontAwesomeIcon className="soc" icon={faLinkedinIn} />
-      <FontAwesomeIcon className="soc" icon={faGithubAlt} />
-      <FontAwesomeIcon className="soc" icon={faInstagram} />
+      <a href="https://www.linkedin.com/in/shelbysexton/" target="_blank"> <FontAwesomeIcon className="soc" icon={faLinkedinIn} /></a>
+      <a href="https://github.com/shelby-frolycoding" target="_blank"><FontAwesomeIcon className="soc" icon={faGithubAlt} /></a>
+      <a href="https://www.instagram.com/fantastic_froly/" target="_blank"><FontAwesomeIcon className="soc" icon={faInstagram} /></a>
       </div>
+      
       <div class="bb"></div>
     </div>
   );

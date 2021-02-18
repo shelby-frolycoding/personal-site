@@ -4,6 +4,8 @@ import emailjs from 'emailjs-com';
 import Layout from "../../components/Layout/Layout"
 import React, {useState} from "react";
 import "./Contact.css";
+import Talk from "../../components/ImageComps/Talk"
+import Plane from "../../components/ImageComps/Plane"
 
 // export default function Contact() {
 
@@ -98,7 +100,10 @@ const Contact = () => {
   return (
     <>
       <div className="yee">
-        <Layout /> <br/>
+        <Layout /> <br />
+        <Talk />
+        <br/>
+        <Plane />
         <div className="contact-form" id="contact">
           please@me
        <br/>

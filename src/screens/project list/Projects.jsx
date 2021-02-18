@@ -18,20 +18,22 @@ export default function Projects(props) {
     <div className="Work-Page">
       <Layout />
       <div className= "wdiv">
-        <WorksTitle className="works" /></div>
-      <P1 className="p" /> <div className="p-words"> <p  className="aboutp">This is my first ever project that was 
+        <WorksTitle className="works" />
+      </div>
+         <a href="https://shelby-frolycoding.github.io/Near-Us/" target="_blank"><P1 className="p" /></a>
+      <div className="p-words"> <p className="aboutp">This is my first ever project that was 
       made after only learning coding for a little over 2 weeks. I used HTML, CSS, and JavaScript. Before this project, 
-      I had no idea what an API was or how to use it in code. 
-      I ended up usign a NASA API to let users search asteriods and metereos that pass near Earth.  
+      I had no idea what an API even was or how to use it in code. 
+      I ended up using a NASA API to let users search asteriods and metereos that pass near Earth.  
       My first project stays untouched, a testament to growth.
       <p className= "extra">made with: html, css, javascript, nasa api</p>
-      <button class="big-button">the site</button> 
-        <button class="big-button">the code</button>
+      <a href="https://shelby-frolycoding.github.io/Near-Us/" target="_blank"><button class="big-button">the site</button></a>
+      <a href="https://github.com/shelby-frolycoding/Near-Us" target="_blank"><button class="big-button">the code</button></a>
         <br/>
         </p>
       </div>
       <br/>
-      <P2 className="p" />
+      <a href="https://zealous-bardeen-69fae4.netlify.app/" target="_blank"><P2 className="p" /></a>
       <div className="p-words">
         <p className="aboutp">
           Bookends is my second project and my favorite solo project so far. This is my first project utilizing 
@@ -40,35 +42,38 @@ export default function Projects(props) {
           I hope to contiue to build on!
           <p className= "extra">made with: html, css, jsx, react, airtable</p>
         <br/>
-        <button class="big-button">the site</button>
-        <button class="big-button">the code</button></p>
+        <a href="https://zealous-bardeen-69fae4.netlify.app/" target="_blank"><button class="big-button">the site</button></a>
+      <a href="https://github.com/shelby-frolycoding/bookends" target="_blank"><button class="big-button">the code</button></a>
+        <br/></p>
          </div>
       <br/>
-      <P3 className="p" /><div className="p-words"><p className="aboutp"> GetLost is a mock up of an online,  retail site. 
+      <a href="https://get-lost.netlify.app/" target="_blank"><P3 className="p" /></a>
+      <div className="p-words"><p className="aboutp"> GetLost is a mock up of an online,  retail site. 
       This was my first experience working with a group and got the abolsute pleasure of working together for a few weeks. 
       GetLost is full CRUD utilizing a MongoDB/Heroku backend. Users and Admins can sign in, shop, and explore products. 
       I got experience using GitHub is a real life, team setting.
       <p className= "extra">made with: html, css, javascript, react, express, mongoDB, heroku</p>
-      <button class="big-button">the site</button>
-        <button class="big-button">the code</button>
+      <a href="https://get-lost.netlify.app/" target="_blank"><button class="big-button">the site</button></a>
+      <a href="https://github.com/enewton3/get-lost" target="_blank"><button class="big-button">the code</button></a>
         <br />
       </p>
          </div>
       <br />
-      <P4 className="p" /><div className="p-words"><p className="aboutp">
+      <a href="https://confident-lovelace-b84172.netlify.app/" target="_blank"><P4 className="p" /></a>
+        <div className="p-words"><p className="aboutp">
       I had less than a week to create a full-CRUD, fullstack app leveraging Ruby, postgreSql,  and Ruby on Rails. I'm 
         really proud of what I accomlished 
         on a such a tight deadline. MyPlantPal is a house-plant care tracker, 
         letting user knows when it's time to take care of their little green friends. 
         Stay tuned for polishing and relaunching of this project!
         <p className= "extra">made with: html, css, jsx, react, ruby, ruby on rails, postgrsql, heroku</p>
-      <button class="big-button">the site</button>
-        <button class="big-button">the code</button>
-        
+        <a href="https://confident-lovelace-b84172.netlify.app/" target="_blank"><button class="big-button">the site</button></a>
+      <a href="https://github.com/shelby-frolycoding/myplantpal" target="_blank"><button class="big-button">the code</button></a>
       </p> 
         
          </div>
          <div class="bb"></div>
   </div>
+      
   );
 }

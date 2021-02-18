@@ -1,19 +1,63 @@
 
 .contact-form {
-width: 50vw;
-height: 36vw;
+width: 45vw;
+height: 32vw;
 background-color:  #FDF6EF;
 color: #545454;
 text-decoration: none;
 font-family: 'Be Vietnam', sans-serif;
-font-weight: bolder;
+/* font-weight: bolder; */
 font-size: 2vw;
 margin: 0 auto;
-margin-top: 8vw;
+margin-top: 3vw;
 text-align: center;
-
+margin-bottom: 2vw;
+box-shadow: 4px 4px .2px .2px #d09db2b3;
 
 }
+label {
+font-size: 1.5vw;
+}
+
+.plane {
+  position: absolute;
+  left: -600px;
+  margin-left: 5vw;
+  margin-top: 5vw;
+  
+  
+ 
+  
+  animation: slidey 3s forwards;
+  
+}
+
+/* @-webkit-keyframes slide {
+  100% { left: 0; }
+} */
+
+@keyframes slidey {
+  100% { left: 0; }
+}
+
+.talk {
+  width: 24.1vw;
+  margin-left: 1vw;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: inherit;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 15%;
+     
+    }
+  
+    to {
+      margin-right: 25%;
+     
+    }
+  }
 
 input {
 border: none;
@@ -22,7 +66,7 @@ height: 2vw;
 color: #545454;
 text-decoration: none;
 font-family: 'Be Vietnam', sans-serif;
-font-weight: bolder;
+
 font-size: 1vw;
 }
 textarea {
@@ -56,7 +100,7 @@ button.big::before {
  bottom: 0;
  background: var(--colorShadeC);
  border-radius: inherit;
-   box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
+   box-shadow: 0 0 0 .01vw var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
 transform: translate3d(0, 0.75em, -1em);
     transition: all 175ms cubic-bezier(0, 0, 1, 1);
 }

@@ -34,7 +34,7 @@ export default function Landing(props) {
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
 <div class="content">
-  <h1></h1>
+ 
 </div>
     </div>
 

@@ -21,6 +21,8 @@
   }
 
   .p {
+    width: 31.4vw;
+    height: auto;
     margin-bottom: 5vw;
     margin-top: 2vw;
     -webkit-transition: -webkit-transform .4s ease-in-out;

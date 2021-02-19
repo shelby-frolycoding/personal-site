@@ -32,8 +32,12 @@ export default function AboutMe(props) {
         My love for creation, technology, and progress led me to pursue a path into software engineering. I never want to stop learning and mastering these skills. 
         This is no longer just a career transition, but it has become an absolute passion for me. 
         <br/>
-        <p>I'm a fullstack engineer who specializes in front-end and I'm obsessed with all things styling and design. I also have helped businesses with
-          branding and graphic design work and look forward to more. When it comes to my craft, I gleefully wield my creativity--which is my most loved skill--and 
+         
+          
+          
+          <p className="ppp">I'm a fullstack engineer who specializes in front-end and I'm obsessed with all things styling and design. I also have helped businesses with
+          branding and graphic design work and look forward to more. When it comes to my craft, 
+          I gleefully wield my creativity--which is my most loved skill--and 
           approach everything like it's my next masterpiece. Yes, even styling buttons comes with its own beauty for me. 
           Whether I need to solve a problem or design a logo, my imagination helps me approach things from an artistic and inventive mindset.
           I want to create wonderful things for users and clients.</p>

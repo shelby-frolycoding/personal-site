@@ -152,7 +152,7 @@ const Contact = () => {
             
         </div>
         <div className = "meeting"> 
-        <a href="https://calendly.com/shelbysexton/" target="_blank" className="lol"><FontAwesomeIcon className="meetmee" icon={faCoffee} /> <br />
+        <a href="https://calendly.com/shelbysexton/" rel="noreferrer" target="_blank" className="lol"><FontAwesomeIcon className="meetmee" icon={faCoffee} /> <br />
           <p className="pm"> Schedule a Meeting with Me </p></a>
          </div> 
         <div class="bb"></div>

@@ -48,9 +48,9 @@ export default function AboutMe(props) {
 
       </div>
       <div className="social">
-      <a href="https://www.linkedin.com/in/shelbysexton/" target="_blank"> <FontAwesomeIcon className="soc" icon={faLinkedinIn} /></a>
-      <a href="https://github.com/shelby-frolycoding" target="_blank"><FontAwesomeIcon className="soc" icon={faGithubAlt} /></a>
-      <a href="https://www.instagram.com/fantastic_froly/" target="_blank"><FontAwesomeIcon className="soc" icon={faInstagram} /></a>
+      <a href="https://www.linkedin.com/in/shelbysexton/" rel="noreferrer" target="_blank"> <FontAwesomeIcon className="soc" icon={faLinkedinIn} /></a>
+      <a href="https://github.com/shelby-frolycoding" rel="noreferrer" target="_blank"><FontAwesomeIcon className="soc" icon={faGithubAlt} /></a>
+      <a href="https://www.instagram.com/fantastic_froly/" rel="noreferrer" target="_blank"><FontAwesomeIcon className="soc" icon={faInstagram} /></a>
       </div>
       
       <div class="bb"></div>

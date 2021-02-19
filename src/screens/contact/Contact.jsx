@@ -7,7 +7,7 @@ import "./Contact.css";
 import Talk from "../../components/ImageComps/Talk"
 import Plane from "../../components/ImageComps/Plane"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBullhorn, faCoffee, faComment, faCommentAlt, faComments } from '@fortawesome/free-solid-svg-icons';
+import {  faCoffee,  } from '@fortawesome/free-solid-svg-icons';
 
 // export default function Contact() {
 

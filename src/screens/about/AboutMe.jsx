@@ -16,7 +16,7 @@ export default function AboutMe(props) {
       <Layout/>
       <MePic className="me-pic" />
       <button class="filezz">
-        <a href={pdf} target="_blank" className="lol">download my resume</a>
+        <a href={pdf} rel="noreferrer" target="_blank" className="lol">download my resume</a>
       </button>
 
       <AboutTitle className="a-tt" />
@@ -25,7 +25,7 @@ export default function AboutMe(props) {
         
       
       <div className = "about-cont">
-        <p className="about-words"> <p className="bold"> Long ago, in a cornfield far away, a girl dreamed of using her wits and imagination to create and delight.</p>
+        <div className="about-words"> <p className="bold"> Long ago, in a cornfield far away, a girl dreamed of using her wits and imagination to create and delight.</p>
         Whether it be a pen, a keyboard, or paint,
         I thrive and revel in creative and inventive pursuits.
         After years in retail, customer service, and even winning a barista championship, I yearned for more-- to make spectacular things, help businesses, and do it all with a bit of personality.
@@ -37,9 +37,9 @@ export default function AboutMe(props) {
           approach everything like it's my next masterpiece. Yes, even styling buttons comes with its own beauty for me. 
           Whether I need to solve a problem or design a logo, my imagination helps me approach things from an artistic and inventive mindset.
           I want to create wonderful things for users and clients.</p>
-        {/* <br/> */}
+         <br/> 
         <p className="bold">My dream is to help people and companies with
-        their sites, products, and visions-- making fantastic things together. </p> </p>
+        their sites, products, and visions-- making fantastic things together. </p> </div>
       </div>
       <div className="skills">
         <FontAwesomeIcon icon={faHtml5} /><FontAwesomeIcon icon={faCss3Alt} /><FontAwesomeIcon icon={faJs} />

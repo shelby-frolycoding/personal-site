@@ -15,9 +15,9 @@ export default function AboutMe(props) {
     <div className="About">
       <Layout/>
       <MePic className="me-pic" />
-      <button class="filezz">
-        <a href={pdf} rel="noreferrer" target="_blank" className="lol">download my resume</a>
-      </button>
+      <a href={pdf} rel="noreferrer" target="_blank" className="lol"><button class="filezz">
+        download my resume
+      </button></a>
 
       <AboutTitle className="a-tt" />
       

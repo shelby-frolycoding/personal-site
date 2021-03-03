@@ -23,8 +23,9 @@ font-weight: bolder;
 .a-tt {
   width: 34.5vw;
 
-margin-bottom: 34vw;
-margin-left: -22.5vw;
+margin-bottom: 8vw;
+margin-top: 3vw;
+margin-left: 2vw;
 animation-duration: 3s;
 animation-name: slidein;
 animation-iteration-count: inherit;
@@ -196,3 +197,42 @@ cursor: pointer;
   0% { right: 0; }
 }
 
+
+@media only screen and (max-width: 700px) {
+  .a-tt{
+     min-width: 45%;
+     
+     
+    
+    }
+    .me-pic {
+    min-width: 55%;
+   margin-left: 5vw;
+    
+    
+    }
+    .about-cont {
+    margin-top: 15vw;
+    min-width: 80%;
+    font-size: 2.5vw;
+    margin-left: 10vw;
+    }
+    .social {
+    margin-top: -195vw;
+    margin-right: 20vw;
+    font-size: 15vw;
+    }
+    .filezz {
+      min-width: 30%;
+      height: auto;
+      font-size: 2vw;
+      margin-top: 15vw;
+    }
+    .skills {
+    font-size: 5vw;
+    margin-left: 25vw;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+  }

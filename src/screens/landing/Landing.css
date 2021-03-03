@@ -1,7 +1,9 @@
 img.landing-title {
-
-margin-left: 13.5vw;
+width: 90.5vw;
+height: auto;
+margin-left: 4vw;
 margin-top: 3vw;
+/* margin: 0 auto; */
 
 
 }
@@ -11,16 +13,19 @@ margin-top: 3vw;
 margin-left: 16vw;
 transition: .5s;
 
+
 }
 .b-logo {
 padding: .5vw;
+
 }
 .m-logo {
 padding: 1.4vw;
+
 }
 
 .l-logo, .b-logo, .m-logo {
-
+width: 15vw;
 margin-left: 4vw;
 margin-right: 4vw;
 transition: .5s;
@@ -79,5 +84,20 @@ margin-bottom: 5vw;
   }
   100% {
     transform:translateX(25%);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+img.landing-title {
+   min-width: 125%; 
+   margin-left: -10vw;
+  }
+  .l-logo, .b-logo, .m-logo {
+  min-width: 45%; 
+  margin-left: 16vw;
+  }
+  .fanny {
+  font-size: 5vw;
+  margin-left: 5vw;
   }
 }

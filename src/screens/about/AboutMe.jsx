@@ -13,13 +13,15 @@ export default function AboutMe(props) {
   return (
     
     <div className="About">
-      <Layout/>
+      <Layout />
+      <AboutTitle className="a-tt" />
+      <div></div>
       <MePic className="me-pic" />
       <a href={pdf} rel="noreferrer" target="_blank" className="lol"><button class="filezz">
         download my resume
       </button></a>
 
-      <AboutTitle className="a-tt" />
+     
       
      
         

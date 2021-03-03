@@ -100,7 +100,7 @@ const Contact = () => {
   
 
   return (
-    <>
+   
       <div className="yee">
         <Layout /> <br />
         <Talk />
@@ -158,7 +158,7 @@ const Contact = () => {
         <div class="bb"></div>
         
       </div>
-    </>
+    
   );
 };
 

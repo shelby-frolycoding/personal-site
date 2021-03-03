@@ -15,16 +15,17 @@ transition: .5s;
 
 
 }
-.b-logo {
+/* .b-logo {
 padding: .5vw;
 
 }
 .m-logo {
 padding: 1.4vw;
 
-}
+} */
 
 .l-logo, .b-logo, .m-logo {
+padding: 1vw;
 width: 15vw;
 margin-left: 4vw;
 margin-right: 4vw;

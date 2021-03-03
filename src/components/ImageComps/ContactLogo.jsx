@@ -1,4 +1,4 @@
-import logo from "../../images/bob.png"
+import logo from "../../images/contactlogo.png"
 
 
 export default function ContactLogo() {
